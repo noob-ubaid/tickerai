@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .caption{
+        @apply bg-black dark:text-white text-white px-1.5 py-0.5 rounded-sm uppercase text-xs;
+    }
+    .tag{
+        @apply text-xs md:text-sm uppercase dark:bg-slate-400 bg-[#5677AC26]  px-1.5 py-0.5 font-medium rounded-sm cursor-pointer hover:bg-black hover:text-white transition-all;
+    } 
+    .form{
+        @apply bg-[#E6EBF3] font-medium md:text-lg md:py-4 rounded-full py-3 w-full text-center hover:bg-slate-300 hover:scale-105 cursor-pointer transition-all;
+    }
+}
